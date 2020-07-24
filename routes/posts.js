@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const Activity = require('../models/model');
 
 
-router.get('/',async (req,res) => {
+router.get('/posts',async (req,res) => {
     
     var pipeline = [
         
