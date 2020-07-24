@@ -19,7 +19,7 @@ const posts = require ('./routes/posts');
 
 app.use('/api/v1',posts);
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () =>{
     console.log(`Server started on port ${process.env.PORT} in ${process.env.NODE_ENV} mode.`)
 })
