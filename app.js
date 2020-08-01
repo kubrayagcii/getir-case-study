@@ -12,7 +12,6 @@ const connectDatabase = require('./config/database')
 //Setting up config.env file variables
 dotenv.config({path : './config/config.env'})
 
-
 //connecting to database
 connectDatabase();
 
