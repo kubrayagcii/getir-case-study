@@ -15,13 +15,5 @@ Users can send get request to
 - Install Postman to interact with REST API
 - Create a message with:
   - URL: http://localhost:3000/api/v1/posts
-  - Method: GET
-  - Body: raw + JSON (application/json)
-  - Body Content: 
-      ```
-      { "startDate": "2016-01-26",
-       "endDate": "2018-02-02",
-       "minCount": 2700,
-       "maxCount": 3000 }
-      ```
-
+  - Method: POST
+  
