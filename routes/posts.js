@@ -42,7 +42,7 @@ const Activity = require('../models/model');
 
 
 
-router.post('/',async (req,res) => {
+router.get('/',async (req,res) => {
 
     router.use( bodyParser.json() );  
     var payload={
