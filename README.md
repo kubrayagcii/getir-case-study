@@ -14,6 +14,6 @@ Users can send get request to
 ## POSTMAN
 - Install Postman to interact with REST API
 - Create a message with:
-  - URL: http://localhost:3000/api/v1/posts
+  - URL: https://getir-case-study-kubra.herokuapp.com/
   - Method: POST
   
