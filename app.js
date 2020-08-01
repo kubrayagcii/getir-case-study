@@ -19,7 +19,7 @@ connectDatabase();
 //importing router
 const posts = require ('./routes/posts');
 
-app.use('/api/v1',posts);
+app.use(posts);
 
 
 app.listen(port, () =>{
