@@ -8,8 +8,8 @@
     "dev": "nodemon app.js",
     "prod": "SET NODE_ENV=production & nodemon app.js",
     "test": "jest",
-    "test:watch": "jest --watch",
-    "heroku-postbuild": " npm install && npm run build"
+    "test:watch": "jest --watch"
+   
   },
   "author": "Kübra Yağcı",
   "license": "ISC",

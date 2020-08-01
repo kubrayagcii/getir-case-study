@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
@@ -22,8 +22,8 @@ const posts = require ('./routes/posts');
 app.use('/api/v1',posts);
 
 
-app.listen(PORT, () =>{
-    console.log(`Server started on port ${PORT} in ${process.env.NODE_ENV} mode.`)
+app.listen(port, () =>{
+    console.log(`Server started on port ${port} in ${process.env.NODE_ENV} mode.`)
 })
 
 module.exports = app;
